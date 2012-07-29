@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AndroidTwitterSample!</string>
+    <string name="app_name">Tweet Tag IBA</string>
+    <string name="initiateEvent">Initiate Event</string>
+    <string name="eventName">Event Name</string>
+    <string name="hasghtag">Hash Tag</string>
+    
+
+        <color name="custom_theme_color">#f3f6f9</color>
+
+    <style name="CustomTheme" parent="android:Theme.Light">
+        <item name="android:windowBackground">@color/custom_theme_color</item>
+        <item name="android:colorBackground">@color/custom_theme_color</item>
+    </style>
+        <string name="addEvent">Attend !</string>
+        <string name="mainScreenTweetMsg">Enter text Below. Not more than 130 characters.</string>
+        <string name="sendTweet">Tweet</string>
+        <string name="history">History</string>
+    
+    
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textViewChatter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mainScreenTweetMsg" />
+
+    <EditText
+        android:id="@+id/editTextTweet_htag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btn_tweet_htag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/sendTweet" />
+
+    <TextView
+        android:id="@+id/textViewTweets"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="" />
+
+    <ListView
+        android:id="@+id/listViewChatter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:dividerHeight="5dp"
+    	android:textSize="3dp"
+        >
+
+    </ListView>
+
+</LinearLayout>
